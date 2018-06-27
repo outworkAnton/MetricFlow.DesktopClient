@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MetricFlow.DesktopClient.Properties
+namespace MetricFlow.Properties
 {
 
 
