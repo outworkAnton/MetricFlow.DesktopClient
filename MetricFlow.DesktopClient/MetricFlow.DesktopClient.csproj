@@ -97,9 +97,6 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="NLog.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -107,32 +104,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic.Contract\BusinessLogic.Contract.csproj">
-      <Project>{3993488a-09d2-4687-86f8-ee3da4f55f07}</Project>
-      <Name>BusinessLogic.Contract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic.DI\BusinessLogic.DI.csproj">
-      <Project>{af71888e-73e7-431f-b56c-7054e4e46e1d}</Project>
-      <Name>BusinessLogic.DI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\BusinessLogic\BusinessLogic\BusinessLogic.csproj">
-      <Project>{e242e6d1-06e7-4d30-a70f-d42847af823a}</Project>
-      <Name>BusinessLogic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataAccess\DataAccess.Contract\DataAccess.Contract.csproj">
-      <Project>{971d06aa-e276-4f9d-924f-e2f060be9b31}</Project>
-      <Name>DataAccess.Contract</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataAccess\DataAccess.DI\DataAccess.DI.csproj">
-      <Project>{e251f3b5-3533-407f-88bb-a8c068f9d491}</Project>
-      <Name>DataAccess.DI</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataAccess\DataAccess\DataAccess.csproj">
-      <Project>{100a216b-dba5-4783-9055-ce68fce201b2}</Project>
-      <Name>DataAccess</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\Main.xaml">
